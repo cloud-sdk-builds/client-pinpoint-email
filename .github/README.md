@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-pinpoint-email`](https://www.npmjs.com/package/@aws-sdk/client-pinpoint-email/v/3.385.0).
+[`@aws-sdk/client-pinpoint-email`](https://www.npmjs.com/package/@aws-sdk/client-pinpoint-email/v/3.386.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint-email@3.385.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint-email@3.386.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-eMlyeBYI0tINfDEZjObnn0jwKLCiB3zHJZ35tcSG4JywYF7PjEf4s1l5zhntABiX
+sha384-Wd2fqdbhecxOrWy+wzn8j1tbfKH6wGG70UrIJGqZLDxHOUMztXzuUC4PHutoyHdW
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-pinpoint-email": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint-email@3.385.0/index.min.mjs"
+            "@aws-sdk/client-pinpoint-email": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint-email@3.386.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint-email@3.385.0/index.min.mjs": "sha384-eMlyeBYI0tINfDEZjObnn0jwKLCiB3zHJZ35tcSG4JywYF7PjEf4s1l5zhntABiX"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint-email@3.386.0/index.min.mjs": "sha384-Wd2fqdbhecxOrWy+wzn8j1tbfKH6wGG70UrIJGqZLDxHOUMztXzuUC4PHutoyHdW"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-pinpoint-email": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint-email@3.385.0/index.min.mjs"
+                        "@aws-sdk/client-pinpoint-email": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint-email@3.386.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint-email@3.385.0/index.min.mjs": "sha384-eMlyeBYI0tINfDEZjObnn0jwKLCiB3zHJZ35tcSG4JywYF7PjEf4s1l5zhntABiX"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pinpoint-email@3.386.0/index.min.mjs": "sha384-Wd2fqdbhecxOrWy+wzn8j1tbfKH6wGG70UrIJGqZLDxHOUMztXzuUC4PHutoyHdW"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.385.0`)
+* Always pin to a specific version (`@3.386.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-pinpoint-email/blob/refs/tags/3.385.0/LICENSE
+https://github.com/cloud-sdk-builds/client-pinpoint-email/blob/refs/tags/3.386.0/LICENSE
 ```
 
 ---
